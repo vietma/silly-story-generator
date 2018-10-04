@@ -37,8 +37,7 @@ function result() {
   var yItem = randomValueFromArray(insertY);
   var zItem = randomValueFromArray(insertZ);
 
-  newStory = newStory.replace(":insertx:", xItem);
-  newStory = newStory.replace(":insertx:", xItem);
+  newStory = newStory.replace(/:insertx:/g, xItem);
 
   newStory = newStory.replace(":inserty:", yItem);
 
